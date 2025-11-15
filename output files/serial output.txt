@@ -1,0 +1,97 @@
+11:25:23.098 -> === IoT Motion Logger ===
+11:25:23.098 -> 
+11:25:23.098 -> [PIR] Warm-up started (120 sec)
+11:25:23.098 -> ESP: OFF  | PIR: WARMUP  | Stored: 0  | LastSendOk: NO  | LastSendAt(ms): 0
+11:25:23.098 -> 
+11:27:24.641 -> [PIR] Warm-up complete. PIR active.
+11:27:29.224 -> [PIR] Stored duration = 3 sec
+11:27:40.474 -> [PIR] Stored duration = 4 sec
+11:27:45.348 -> [PIR] Stored duration = 2 sec
+11:27:52.584 -> (USER) ESP ON
+11:27:53.697 -> [ESP CMD] AT
+11:27:54.115 -> [ESP CMD] AT+CWMODE=1
+11:27:54.778 -> [ESP CMD] AT+CWJAP="wifi","asdfzxcvc"
+11:27:54.824 -> 
+11:27:58.183 -> [PIR] Stored duration = 1 sec
+11:28:16.661 -> [PIR] Stored duration = 1 sec
+11:28:17.661 -> (USER) ESP: BOOTING  | PIR: IDLE  | Stored: 5  | LastSendOk: NO  | LastSendAt(ms): 0
+11:28:17.661 -> 
+11:28:27.141 -> [ESP] WiFi connect TIMEOUT
+11:28:27.606 -> [PIR] Stored duration = 4 sec
+11:28:27.713 -> [ESP] WiFi connecting…
+
+11:28:28.063 -> [ESP] WiFi READY
+11:28:28.063 -> [MAIN] Sending oldest reading -> dur_sec=3  evt#=3
+11:28:28.145 -> [ESP CMD] AT+CIPSTART="TCP","api.thingspeak.com",80
+11:28:28.963 -> [ESP CMD] AT+CIPSEND=103
+11:28:30.802 -> [ESP CMD] <payload>
+11:28:30.912 -> [ESP] SEND OK
+11:28:36.003 -> [PIR] Stored duration = 3 sec
+11:28:48.654 -> [MAIN] Sending oldest reading -> dur_sec=4  evt#=4
+11:28:48.726 -> [ESP CMD] AT+CIPSTART="TCP","api.thingspeak.com",80
+11:29:01.951 -> [PIR] Stored duration = 1 sec
+11:29:34.380 -> [PIR] Stored duration = 3 sec
+11:29:55.165 -> [PIR] Stored duration = 5 sec
+11:29:59.425 -> [PIR] Stored duration = 1 sec
+11:30:11.648 -> (USER) ESP: SENDING  | PIR: IDLE  | Stored: 10  | LastSendOk: NO  | LastSendAt(ms): 0
+11:30:11.648 -> 
+11:30:16.623 -> [PIR] Stored duration = 1 sec
+11:30:22.005 -> [PIR] Stored duration = 1 sec
+11:30:57.999 -> (USER) ESP OFF (graceful)
+11:30:58.034 -> (USER) ESP OFF (graceful)
+11:30:58.034 -> [ESP CMD] AT+CWQAP
+11:30:59.262 -> [ESP] Powered OFF
+11:30:59.262 -> 
+11:31:26.640 -> [PIR] Stored duration = 1 sec
+11:32:11.697 -> (USER) ESP ON
+11:32:12.828 -> [ESP CMD] AT
+11:32:13.258 -> [ESP CMD] AT+CWMODE=1
+11:32:13.892 -> [ESP CMD] AT+CWJAP="wifi","asdfzxcvc"
+11:32:13.925 -> 
+11:32:23.740 -> [ESP] WiFi READY
+11:32:23.740 -> [MAIN] Sending oldest reading -> dur_sec=1  evt#=7
+11:32:23.845 -> [ESP CMD] AT+CIPSTART="TCP","api.thingspeak.com",80
+11:32:24.678 -> [ESP CMD] AT+CIPSEND=103
+11:32:26.493 -> [ESP CMD] <payload>
+11:32:26.573 -> [ESP] SEND OK
+11:32:44.559 -> [MAIN] Sending oldest reading -> dur_sec=4  evt#=8
+11:32:44.657 -> [ESP CMD] AT+CIPSTART="TCP","api.thingspeak.com",80
+11:32:45.492 -> [ESP CMD] AT+CIPSEND=103
+11:32:47.358 -> [ESP CMD] <payload>
+11:32:47.439 -> [ESP] SEND OK
+11:33:05.401 -> [MAIN] Sending oldest reading -> dur_sec=3  evt#=9
+11:33:05.501 -> [ESP CMD] AT+CIPSTART="TCP","api.thingspeak.com",80
+11:33:06.353 -> [ESP CMD] AT+CIPSEND=103
+11:33:08.224 -> [ESP CMD] <payload>
+11:33:08.301 -> [ESP] SEND OK
+11:33:11.663 -> (USER) EEPROM Stored Readings:
+11:33:11.701 -> 0: dur(sec)=1  event=10
+11:33:11.701 -> 1: dur(sec)=3  event=11
+11:33:11.701 -> 2: dur(sec)=5  event=12
+11:33:11.701 -> 3: dur(sec)=1  event=13
+11:33:11.701 -> 4: dur(sec)=1  event=14
+11:33:11.701 -> 5: dur(sec)=1  event=15
+11:33:11.701 -> 6: dur(sec)=1  event=16
+11:33:11.701 -> 
+11:33:26.280 -> [MAIN] Sending oldest reading -> dur_sec=1  evt#=10
+11:33:26.360 -> [ESP CMD] AT+CIPSTART="TCP","api.thingspeak.com",80
+11:34:19.961 -> [ESP] WiFi READY
+11:34:19.961 -> [MAIN] Sending oldest reading -> dur_sec=1  evt#=10
+11:34:20.037 -> [ESP CMD] AT+CIPSTART="TCP","api.thingspeak.com",80
+11:34:20.865 -> [ESP CMD] AT+CIPSEND=103
+11:34:22.715 -> [ESP CMD] <payload>
+11:34:22.818 -> [ESP] SEND OK
+11:34:40.828 -> [MAIN] Sending oldest reading -> dur_sec=3  evt#=11
+11:34:40.891 -> [ESP CMD] AT+CIPSTART="TCP","api.thingspeak.com",80
+11:34:41.697 -> [ESP CMD] AT+CIPSEND=103
+11:34:43.537 -> [ESP CMD] <payload>
+11:34:43.623 -> [ESP] SEND OK
+11:34:52.042 -> (USER) ESP OFF (graceful)
+11:34:52.042 -> (USER) ESP OFF (graceful)
+11:34:52.042 -> [ESP CMD] AT+CWQAP
+11:34:52.794 -> [ESP RAW] AT+CWQAP
+11:34:52.794 -> [ESP RAW] WIFI DISCONNECT
+11:34:52.794 -> [ESP RAW] 
+11:34:52.794 -> [ESP RAW] OK
+11:34:53.304 -> [ESP] Powered OFF
+11:34:53.304 -> 
